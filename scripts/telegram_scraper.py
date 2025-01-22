@@ -41,14 +41,12 @@ async def main():
         writer.writerow(['Channel Title', 'Channel Username', 'ID', 'Message', 'Date', 'Media Path'])  # Include channel title in the header
         
         # List of channels to scrape
-        channels = [
-            "@Shageronlinestore", "@ZemenExpress", "@nevacomputer",
-            "@meneshayeofficial", "@ethio_brand_collection", 
-            "@Leyueqa", "@sinayelj", "@Shewabrand", "@helloomarketethiopia",
+        channels = [ 
+            "@helloomarketethiopia",
             "@modernshoppingcenter", "@qnashcom", "@Fashiontera", "@kuruwear",
             "@gebeyaadama", "@MerttEka", "@forfreemarket", "@classybrands",
             "@marakibrand", "@aradabrand2", "@marakisat2", "@belaclassic",
-            "@AwasMart", "@qnashcom"
+            "@AwasMart"
             
         ]
         

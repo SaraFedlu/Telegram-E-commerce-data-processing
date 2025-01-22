@@ -7,6 +7,9 @@ __pycache__/
 
 # data files
 data/
+colab_photos/
+local_photos/
+shager_photos/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -24,6 +27,8 @@ data/
 *.bak
 *.swp
 *.swo
+*.csv
+*.jpg
 
 # Compiled or processed files
 *.out
